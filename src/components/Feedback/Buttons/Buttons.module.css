@@ -1,0 +1,22 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 8px;
+  border: 1px solid black;
+  background-color: beige;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: aquamarine;
+}

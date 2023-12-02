@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: auto;
+  max-width: 360px;
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
